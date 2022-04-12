@@ -1,0 +1,51 @@
+
+{% extends "layout.html" %}
+
+{% block body %}
+
+<body>
+<link rel="stylesheet" href="/static/indextext.css">
+
+    <header
+
+
+
+             <div class="box">
+
+              <img class='img1' src="/static/images.png">
+
+             <div  class='block2'>
+             <p class="midhead">Want to  detect the language ,I have created the  language Detector model using machine learning try it out.Enter your data in the below box .
+             </p>
+
+
+             </div>
+    </header>
+
+    <section >
+
+                <form  class="form" action="/language" method="post">
+                <textarea class="text"
+                    name="data" id="data" cols="30" rows="10" placeholder="Enter your Data"
+                    required="required">
+
+                </textarea>
+
+
+
+              <br>
+                <div >
+                    <button  class="mid"
+                        type="submit" onclick="Check()">Submit</button>
+
+
+                </div>
+            </form>
+        </div>
+
+
+    </section>
+
+
+</body>
+{% endblock body %}

@@ -1,0 +1,1 @@
+Enter your data in the below box. Want to summarize data ,I have created the text summarization model using machine learning try it out.    Use the below tool to help you with your data.

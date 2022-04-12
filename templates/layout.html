@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+   <link rel="stylesheet" href="/static/stylee.css">
+</head>
+<title>Document</title>
+</head>
+
+<body>
+  <div class="header" id="topheader">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container text-uppercase ">
+        <div class="navleft">
+
+          <a class="navbar-brand" href="/">Simp<span style="color: #f1c50e">LIFY</span> </a>
+
+          <button class="navbar-toggler  ml-auto hidden-sm-up float-xs-right" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/textsum">Text summarization</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/lang">Language Detector</a>
+            </li>
+
+
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+  {% block body %}
+  {% endblock %}
+
+  <footer class="footer">
+    <div class="container">
+
+
+
+          <div class="footupd">
+          <h4  class="footer-one-w3ls" href="/">Simplify</h4>
+          <ul>
+            <p class="footer-one-w3ls">Hi ! Myself Tanvi Deshmukh, I have built this site using python flask and machine
+              learning.</p>
+          </ul>
+
+              <div class="social-links">
+              <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+  </footer>
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous">
+
+  </script>
+</body>
+
+</html>

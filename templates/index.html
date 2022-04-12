@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Summarization</title>
+    <link rel="stylesheet" href="/static/indextext.css">
+
+</head>
+
+
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+<body>
+
+
+
+        <div class="self-center text-white">Data Summarization</div>
+
+
+    <section >
+
+
+             <div class="box">
+
+              <img class='img1' src="/static/sum.jpg">
+
+             <div  class='block2'>
+             <p class="midhead">Want to summarize data ,I have created the text summarization model using machine learning try it out.Enter your data in the below box .
+             </p>
+
+
+             </div>
+             </div>
+
+
+        <div>
+            <form  class="form " action="{{url_for('Summarize')}}" method="post">
+                <textarea class="text"
+                    name="data" id="data" cols="30" rows="10" placeholder="Enter your Data"
+                    required="required">
+
+                </textarea>
+                <div class="flex self-center">
+                    <h3>Summary Length</h3>
+                    <input type="range" class="m-2" min="20" max="1000" name="maxL">
+                </div>
+                <div class="flex self-center">
+                    <button class="mid"
+                        type="submit" onclick="Check()">Submit</button>
+                    <button class="mid"
+                        type="reset">Clear</button>
+                </div>
+            </form>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+
+{% endblock body %}
+
+

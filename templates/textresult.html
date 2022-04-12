@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+
+
+<link rel="stylesheet" href="/static/textresult.css">
+<div class="blox">
+
+
+    <div class="textf">
+        <h2>
+            Original Data
+        </h2>
+        <p >{{orignaldata}}</p>
+
+   </div>
+
+    <div class="textf2">
+             <h2>
+                 Summarize Data
+            </h2>
+             <p>{{result}}</p>
+
+    </div>
+
+
+</div>
+
+  <div>
+        <a class="down" href="{{url_for('Down')}}">Download</a>
+    </div>
+
+
+
+{% endblock body %}
