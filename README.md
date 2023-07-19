@@ -9,3 +9,6 @@ Build  Responsive  website which have feature like \textbf{ Language detection ,
 
 
 ![image](https://github.com/tanvideshmukh29/Simplify/assets/70129990/8cc4d9b5-5d9d-49df-9719-3e502c305544)
+
+
+![image](https://github.com/tanvideshmukh29/Simplify/assets/70129990/4ac7447a-794b-4324-9cff-0a78e7d95a68)
