@@ -1,4 +1,3 @@
-![image](https://github.com/tanvideshmukh29/Simplify/assets/70129990/475b9dfd-9d87-4703-8c1c-66477aa2b65e)# Simplify
 
 
 Build  Responsive  website which have feature like \textbf{ Language detection , Text summarization. 
